@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{37B96EAF-608A-4B6F-A76B-E4A23817D23A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Moway.Simulator</RootNamespace>
+    <AssemblyName>MowaySim</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Communications\CommunicationMessages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommunicationMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Communications\CommunicationPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Communications\CommunicationPanel.Designer.cs">
+      <DependentUpon>CommunicationPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Communications\MessageEventHandler.cs" />
+    <Compile Include="Communications\Communication.cs" />
+    <Compile Include="Communications\Message.cs" />
+    <Compile Include="Expansion\ExpansionEventHandler.cs" />
+    <Compile Include="Expansion\ExpansionMessages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExpansionMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Expansion\ExpansionPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Expansion\ExpansionPanel.Designer.cs">
+      <DependentUpon>ExpansionPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expansion\IoExpansion.cs" />
+    <Compile Include="iSimulator.cs" />
+    <Compile Include="Outputs\Lights.cs" />
+    <Compile Include="Outputs\Movement.cs" />
+    <Compile Include="Outputs\OutputsGraphics.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OutputsGraphics.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Outputs\OutputsMessages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OutputsMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Outputs\Sound.cs" />
+    <Compile Include="Outputs\OutputsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Outputs\OutputsPanel.Designer.cs">
+      <DependentUpon>OutputsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registers\RegisterEventHandler.cs" />
+    <Compile Include="Registers\RegistersPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registers\RegistersPanel.Designer.cs">
+      <DependentUpon>RegistersPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registers\RegistersMessages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RegistersMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Registers\RegisterListViewItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registers\RegisterListViewItem.Designer.cs">
+      <DependentUpon>RegisterListViewItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sensors\Accelerometer.cs" />
+    <Compile Include="Sensors\AccelerometerMessages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AccelerometerMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Sensors\AccelerometerPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sensors\AccelerometerPanel.Designer.cs">
+      <DependentUpon>AccelerometerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sensors\EnviromentMessages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EnviromentMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Sensors\EnviromentPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sensors\EnviromentPanel.Designer.cs">
+      <DependentUpon>EnviromentPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sensors\SensorsGraphics.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SensorsGraphics.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Sensors\SensorsMessages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SensorsMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Sensors\SensorsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sensors\SensorsPanel.Designer.cs">
+      <DependentUpon>SensorsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sensors\LineSensors.cs" />
+    <Compile Include="Sensors\ObstacleSensors.cs" />
+    <Compile Include="MowayModel.cs" />
+    <Compile Include="Registers\Register.cs" />
+    <Compile Include="SimulatorMessages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SimulatorMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SimulatorPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulePanel.Designer.cs">
+      <DependentUpon>ModulePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimulatorException.cs" />
+    <Compile Include="SimulatorPanel.designer.cs">
+      <DependentUpon>SimulatorPanel.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Communications\CommuncationMessages.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communications\CommunicationMessages.nl-NL.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communications\CommunicationMessages.ru-RU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communications\CommunicationMessages.en-GB.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communications\CommunicationMessages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommunicationMessages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communications\CommunicationMessages.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communications\CommunicationPanel.en-GB.resx">
+      <DependentUpon>CommunicationPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communications\CommunicationPanel.es-ES.resx">
+      <DependentUpon>CommunicationPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communications\CommunicationPanel.nl-NL.resx">
+      <DependentUpon>CommunicationPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communications\CommunicationPanel.resx">
+      <DependentUpon>CommunicationPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communications\CommunicationPanel.ru-RU.resx">
+      <DependentUpon>CommunicationPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communications\CommunicationPanel.zh-CN.resx">
+      <DependentUpon>CommunicationPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expansion\ExpansionMessages.en-GB.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expansion\ExpansionMessages.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expansion\ExpansionMessages.nl-NL.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expansion\ExpansionMessages.ru-RU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Outputs\OutputsMessages.en-GB.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Outputs\OutputsMessages.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Outputs\OutputsMessages.nl-NL.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Outputs\OutputsMessages.ru-RU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Outputs\OutputsPanel.en-GB.resx">
+      <DependentUpon>OutputsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Outputs\OutputsPanel.es-ES.resx">
+      <DependentUpon>OutputsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Outputs\OutputsPanel.nl-NL.resx">
+      <DependentUpon>OutputsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Outputs\OutputsPanel.ru-RU.resx">
+      <DependentUpon>OutputsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Outputs\OutputsPanel.zh-CN.resx">
+      <DependentUpon>OutputsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registers\RegistersMessages.en-GB.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registers\RegistersMessages.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registers\RegistersMessages.nl-NL.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registers\RegistersMessages.ru-RU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registers\RegistersPanel.en-GB.resx">
+      <DependentUpon>RegistersPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registers\RegistersPanel.es-ES.resx">
+      <DependentUpon>RegistersPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registers\RegistersPanel.nl-NL.resx">
+      <DependentUpon>RegistersPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registers\RegistersPanel.ru-RU.resx">
+      <DependentUpon>RegistersPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registers\RegistersPanel.zh-CN.resx">
+      <DependentUpon>RegistersPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\AccelerometerMessages.en-GB.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\AccelerometerMessages.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\AccelerometerMessages.nl-NL.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\AccelerometerMessages.ru-RU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\AccelerometerMessages.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\AccelerometerPanel.en-GB.resx">
+      <DependentUpon>AccelerometerPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\AccelerometerPanel.es-ES.resx">
+      <DependentUpon>AccelerometerPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\AccelerometerPanel.nl-NL.resx">
+      <DependentUpon>AccelerometerPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\AccelerometerPanel.ru-RU.resx">
+      <DependentUpon>AccelerometerPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\AccelerometerPanel.zh-CN.resx">
+      <DependentUpon>AccelerometerPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\EnviromentMessages.en-GB.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\EnviromentMessages.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\EnviromentMessages.nl-NL.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\EnviromentMessages.ru-RU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\EnviromentMessages.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expansion\ExpansionMessages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExpansionMessages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expansion\ExpansionMessages.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Outputs\OutputsGraphics.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OutputsGraphics.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Outputs\OutputsMessages.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Outputs\OutputsPanel.resx">
+      <DependentUpon>OutputsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Outputs\OutputsMessages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OutputsMessages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registers\RegistersMessages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RegistersMessages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registers\RegistersMessages.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registers\RegistersPanel.resx">
+      <DependentUpon>RegistersPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registers\RegisterListViewItem.resx">
+      <DependentUpon>RegisterListViewItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\EnviromentPanel.en-GB.resx">
+      <DependentUpon>EnviromentPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\EnviromentPanel.es-ES.resx">
+      <DependentUpon>EnviromentPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\EnviromentPanel.nl-NL.resx">
+      <DependentUpon>EnviromentPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\EnviromentPanel.ru-RU.resx">
+      <DependentUpon>EnviromentPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\EnviromentPanel.zh-CN.resx">
+      <DependentUpon>EnviromentPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\SensorsMessages.en-GB.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\SensorsMessages.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\SensorsMessages.nl-NL.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\SensorsMessages.ru-RU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\SensorsMessages.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\AccelerometerMessages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AccelerometerMessages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\AccelerometerPanel.resx">
+      <DependentUpon>AccelerometerPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\EnviromentMessages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EnviromentMessages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\EnviromentPanel.resx">
+      <DependentUpon>EnviromentPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\SensorsGraphics.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SensorsGraphics.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\SensorsMessages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SensorsMessages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\SensorsPanel.en-GB.resx">
+      <DependentUpon>SensorsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\SensorsPanel.es-ES.resx">
+      <DependentUpon>SensorsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\SensorsPanel.nl-NL.resx">
+      <DependentUpon>SensorsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\SensorsPanel.resx">
+      <DependentUpon>SensorsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\SensorsPanel.ru-RU.resx">
+      <DependentUpon>SensorsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensors\SensorsPanel.zh-CN.resx">
+      <DependentUpon>SensorsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimulatorMessages.en-GB.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimulatorMessages.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimulatorMessages.nl-NL.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimulatorMessages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SimulatorMessages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimulatorMessages.ru-RU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimulatorMessages.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimulatorPanel.resx">
+      <DependentUpon>SimulatorPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulePanel.resx">
+      <DependentUpon>ModulePanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MowayTemplates\MowayTemplate.csproj">
+      <Project>{426D3AE6-E859-49F5-98DD-5502770CD86D}</Project>
+      <Name>MowayTemplate</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LineLeftBlack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LineLeftGrey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LineLeftWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LineRightBlack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LineRightGrey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LineRightWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoundOn.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

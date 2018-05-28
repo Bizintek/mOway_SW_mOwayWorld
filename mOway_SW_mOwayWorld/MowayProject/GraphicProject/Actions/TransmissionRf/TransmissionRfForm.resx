@@ -1,0 +1,1421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 506</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bSave.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;bSave.Name" xml:space="preserve">
+    <value>bSave</value>
+  </data>
+  <data name="&gt;&gt;bSave.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayButton, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bSave.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="bCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 506</value>
+  </data>
+  <data name="bCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;bCancel.Name" xml:space="preserve">
+    <value>bCancel</value>
+  </data>
+  <data name="&gt;&gt;bCancel.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayButton, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bCancel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="llHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 45</value>
+  </data>
+  <data name="llHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;llHelp.Name" xml:space="preserve">
+    <value>llHelp</value>
+  </data>
+  <data name="&gt;&gt;llHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llHelp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;llHelp.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pFormSeparator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 70</value>
+  </data>
+  <data name="pFormSeparator.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pFormSeparator.Name" xml:space="preserve">
+    <value>pFormSeparator</value>
+  </data>
+  <data name="&gt;&gt;pFormSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pFormSeparator.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pFormSeparator.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lFormDescription.Text" xml:space="preserve">
+    <value>In this Condicional you can send a message to another Moway. You have to select the receptor direction and can send constant/variable values.</value>
+  </data>
+  <data name="&gt;&gt;lFormDescription.Name" xml:space="preserve">
+    <value>lFormDescription</value>
+  </data>
+  <data name="&gt;&gt;lFormDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lFormDescription.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lFormDescription.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gbCommands.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 42</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>(0-255)</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="nudDirection.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="nudDirection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 38</value>
+  </data>
+  <data name="nudDirection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="nudDirection.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;nudDirection.Name" xml:space="preserve">
+    <value>nudDirection</value>
+  </data>
+  <data name="&gt;&gt;nudDirection.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayNumericUpDown, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nudDirection.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;nudDirection.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lRange7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lRange7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lRange7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 292</value>
+  </data>
+  <data name="lRange7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lRange7.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="lRange7.Text" xml:space="preserve">
+    <value>(0-255)</value>
+  </data>
+  <data name="&gt;&gt;lRange7.Name" xml:space="preserve">
+    <value>lRange7</value>
+  </data>
+  <data name="&gt;&gt;lRange7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lRange7.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lRange7.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lData7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lData7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 290</value>
+  </data>
+  <data name="lData7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 15</value>
+  </data>
+  <data name="lData7.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="lData7.Text" xml:space="preserve">
+    <value>Data 7</value>
+  </data>
+  <data name="&gt;&gt;lData7.Name" xml:space="preserve">
+    <value>lData7</value>
+  </data>
+  <data name="&gt;&gt;lData7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lData7.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lData7.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="nudValue7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="nudValue7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 287</value>
+  </data>
+  <data name="nudValue7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="nudValue7.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;nudValue7.Name" xml:space="preserve">
+    <value>nudValue7</value>
+  </data>
+  <data name="&gt;&gt;nudValue7.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayNumericUpDown, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nudValue7.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;nudValue7.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cbVariable7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cbVariable7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cbVariable7.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbVariable7.Items" xml:space="preserve">
+    <value>Constant Value</value>
+  </data>
+  <data name="cbVariable7.Items1" xml:space="preserve">
+    <value>Create Variable</value>
+  </data>
+  <data name="cbVariable7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 287</value>
+  </data>
+  <data name="cbVariable7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cbVariable7.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;cbVariable7.Name" xml:space="preserve">
+    <value>cbVariable7</value>
+  </data>
+  <data name="&gt;&gt;cbVariable7.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayComboBox, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbVariable7.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;cbVariable7.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lRange6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lRange6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lRange6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 262</value>
+  </data>
+  <data name="lRange6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lRange6.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lRange6.Text" xml:space="preserve">
+    <value>(0-255)</value>
+  </data>
+  <data name="&gt;&gt;lRange6.Name" xml:space="preserve">
+    <value>lRange6</value>
+  </data>
+  <data name="&gt;&gt;lRange6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lRange6.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lRange6.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lData6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lData6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 260</value>
+  </data>
+  <data name="lData6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 15</value>
+  </data>
+  <data name="lData6.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="lData6.Text" xml:space="preserve">
+    <value>Data 6</value>
+  </data>
+  <data name="&gt;&gt;lData6.Name" xml:space="preserve">
+    <value>lData6</value>
+  </data>
+  <data name="&gt;&gt;lData6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lData6.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lData6.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="nudValue6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="nudValue6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 257</value>
+  </data>
+  <data name="nudValue6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="nudValue6.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;nudValue6.Name" xml:space="preserve">
+    <value>nudValue6</value>
+  </data>
+  <data name="&gt;&gt;nudValue6.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayNumericUpDown, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nudValue6.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;nudValue6.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="cbVariable6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cbVariable6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cbVariable6.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbVariable6.Items" xml:space="preserve">
+    <value>Constant Value</value>
+  </data>
+  <data name="cbVariable6.Items1" xml:space="preserve">
+    <value>Create Variable</value>
+  </data>
+  <data name="cbVariable6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 257</value>
+  </data>
+  <data name="cbVariable6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cbVariable6.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;cbVariable6.Name" xml:space="preserve">
+    <value>cbVariable6</value>
+  </data>
+  <data name="&gt;&gt;cbVariable6.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayComboBox, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbVariable6.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;cbVariable6.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lRange5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lRange5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lRange5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 232</value>
+  </data>
+  <data name="lRange5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lRange5.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="lRange5.Text" xml:space="preserve">
+    <value>(0-255)</value>
+  </data>
+  <data name="&gt;&gt;lRange5.Name" xml:space="preserve">
+    <value>lRange5</value>
+  </data>
+  <data name="&gt;&gt;lRange5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lRange5.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lRange5.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lData5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lData5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 230</value>
+  </data>
+  <data name="lData5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 15</value>
+  </data>
+  <data name="lData5.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="lData5.Text" xml:space="preserve">
+    <value>Data 5</value>
+  </data>
+  <data name="&gt;&gt;lData5.Name" xml:space="preserve">
+    <value>lData5</value>
+  </data>
+  <data name="&gt;&gt;lData5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lData5.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lData5.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="nudValue5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="nudValue5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 227</value>
+  </data>
+  <data name="nudValue5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="nudValue5.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;nudValue5.Name" xml:space="preserve">
+    <value>nudValue5</value>
+  </data>
+  <data name="&gt;&gt;nudValue5.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayNumericUpDown, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nudValue5.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;nudValue5.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="cbVariable5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cbVariable5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cbVariable5.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbVariable5.Items" xml:space="preserve">
+    <value>Constant Value</value>
+  </data>
+  <data name="cbVariable5.Items1" xml:space="preserve">
+    <value>Create Variable</value>
+  </data>
+  <data name="cbVariable5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 227</value>
+  </data>
+  <data name="cbVariable5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cbVariable5.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;cbVariable5.Name" xml:space="preserve">
+    <value>cbVariable5</value>
+  </data>
+  <data name="&gt;&gt;cbVariable5.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayComboBox, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbVariable5.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;cbVariable5.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lRange4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lRange4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lRange4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 202</value>
+  </data>
+  <data name="lRange4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lRange4.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lRange4.Text" xml:space="preserve">
+    <value>(0-255)</value>
+  </data>
+  <data name="&gt;&gt;lRange4.Name" xml:space="preserve">
+    <value>lRange4</value>
+  </data>
+  <data name="&gt;&gt;lRange4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lRange4.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lRange4.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="lData4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lData4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 200</value>
+  </data>
+  <data name="lData4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 15</value>
+  </data>
+  <data name="lData4.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lData4.Text" xml:space="preserve">
+    <value>Data 4</value>
+  </data>
+  <data name="&gt;&gt;lData4.Name" xml:space="preserve">
+    <value>lData4</value>
+  </data>
+  <data name="&gt;&gt;lData4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lData4.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lData4.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="nudValue4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="nudValue4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 197</value>
+  </data>
+  <data name="nudValue4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="nudValue4.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;nudValue4.Name" xml:space="preserve">
+    <value>nudValue4</value>
+  </data>
+  <data name="&gt;&gt;nudValue4.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayNumericUpDown, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nudValue4.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;nudValue4.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="cbVariable4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cbVariable4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cbVariable4.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbVariable4.Items" xml:space="preserve">
+    <value>Constant Value</value>
+  </data>
+  <data name="cbVariable4.Items1" xml:space="preserve">
+    <value>Create Variable</value>
+  </data>
+  <data name="cbVariable4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 197</value>
+  </data>
+  <data name="cbVariable4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cbVariable4.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;cbVariable4.Name" xml:space="preserve">
+    <value>cbVariable4</value>
+  </data>
+  <data name="&gt;&gt;cbVariable4.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayComboBox, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbVariable4.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;cbVariable4.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="lRange3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lRange3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lRange3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 172</value>
+  </data>
+  <data name="lRange3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lRange3.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lRange3.Text" xml:space="preserve">
+    <value>(0-255)</value>
+  </data>
+  <data name="&gt;&gt;lRange3.Name" xml:space="preserve">
+    <value>lRange3</value>
+  </data>
+  <data name="&gt;&gt;lRange3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lRange3.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lRange3.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lData3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lData3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 170</value>
+  </data>
+  <data name="lData3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 15</value>
+  </data>
+  <data name="lData3.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lData3.Text" xml:space="preserve">
+    <value>Data 3</value>
+  </data>
+  <data name="&gt;&gt;lData3.Name" xml:space="preserve">
+    <value>lData3</value>
+  </data>
+  <data name="&gt;&gt;lData3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lData3.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lData3.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="lDirection.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lDirection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 40</value>
+  </data>
+  <data name="lDirection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 15</value>
+  </data>
+  <data name="lDirection.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lDirection.Text" xml:space="preserve">
+    <value>Receptor address .................................</value>
+  </data>
+  <data name="&gt;&gt;lDirection.Name" xml:space="preserve">
+    <value>lDirection</value>
+  </data>
+  <data name="&gt;&gt;lDirection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lDirection.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lDirection.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="nudValue3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="nudValue3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 167</value>
+  </data>
+  <data name="nudValue3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="nudValue3.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;nudValue3.Name" xml:space="preserve">
+    <value>nudValue3</value>
+  </data>
+  <data name="&gt;&gt;nudValue3.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayNumericUpDown, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nudValue3.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;nudValue3.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="cbVariable3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cbVariable3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cbVariable3.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbVariable3.Items" xml:space="preserve">
+    <value>Constant Value</value>
+  </data>
+  <data name="cbVariable3.Items1" xml:space="preserve">
+    <value>Create Variable</value>
+  </data>
+  <data name="cbVariable3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 167</value>
+  </data>
+  <data name="cbVariable3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cbVariable3.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;cbVariable3.Name" xml:space="preserve">
+    <value>cbVariable3</value>
+  </data>
+  <data name="&gt;&gt;cbVariable3.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayComboBox, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbVariable3.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;cbVariable3.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="lRange2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lRange2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lRange2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 142</value>
+  </data>
+  <data name="lRange2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lRange2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lRange2.Text" xml:space="preserve">
+    <value>(0-255)</value>
+  </data>
+  <data name="&gt;&gt;lRange2.Name" xml:space="preserve">
+    <value>lRange2</value>
+  </data>
+  <data name="&gt;&gt;lRange2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lRange2.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lRange2.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="lData2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lData2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 140</value>
+  </data>
+  <data name="lData2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 15</value>
+  </data>
+  <data name="lData2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lData2.Text" xml:space="preserve">
+    <value>Data 2</value>
+  </data>
+  <data name="&gt;&gt;lData2.Name" xml:space="preserve">
+    <value>lData2</value>
+  </data>
+  <data name="&gt;&gt;lData2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lData2.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lData2.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="nudValue2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="nudValue2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 137</value>
+  </data>
+  <data name="nudValue2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="nudValue2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;nudValue2.Name" xml:space="preserve">
+    <value>nudValue2</value>
+  </data>
+  <data name="&gt;&gt;nudValue2.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayNumericUpDown, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nudValue2.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;nudValue2.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="cbVariable2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cbVariable2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cbVariable2.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbVariable2.Items" xml:space="preserve">
+    <value>Constant Value</value>
+  </data>
+  <data name="cbVariable2.Items1" xml:space="preserve">
+    <value>Create Variable</value>
+  </data>
+  <data name="cbVariable2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 137</value>
+  </data>
+  <data name="cbVariable2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cbVariable2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;cbVariable2.Name" xml:space="preserve">
+    <value>cbVariable2</value>
+  </data>
+  <data name="&gt;&gt;cbVariable2.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayComboBox, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbVariable2.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;cbVariable2.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="lRange0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lRange0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lRange0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 82</value>
+  </data>
+  <data name="lRange0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lRange0.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lRange0.Text" xml:space="preserve">
+    <value>(0-255)</value>
+  </data>
+  <data name="&gt;&gt;lRange0.Name" xml:space="preserve">
+    <value>lRange0</value>
+  </data>
+  <data name="&gt;&gt;lRange0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lRange0.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lRange0.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="lData0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lData0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 80</value>
+  </data>
+  <data name="lData0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 15</value>
+  </data>
+  <data name="lData0.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lData0.Text" xml:space="preserve">
+    <value>Data 0</value>
+  </data>
+  <data name="&gt;&gt;lData0.Name" xml:space="preserve">
+    <value>lData0</value>
+  </data>
+  <data name="&gt;&gt;lData0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lData0.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lData0.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="nudValue0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="nudValue0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 77</value>
+  </data>
+  <data name="nudValue0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="nudValue0.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;nudValue0.Name" xml:space="preserve">
+    <value>nudValue0</value>
+  </data>
+  <data name="&gt;&gt;nudValue0.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayNumericUpDown, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nudValue0.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;nudValue0.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="cbVariable0.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cbVariable0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cbVariable0.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbVariable0.Items" xml:space="preserve">
+    <value>Constant Value</value>
+  </data>
+  <data name="cbVariable0.Items1" xml:space="preserve">
+    <value>Create Variable</value>
+  </data>
+  <data name="cbVariable0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 77</value>
+  </data>
+  <data name="cbVariable0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cbVariable0.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cbVariable0.Name" xml:space="preserve">
+    <value>cbVariable0</value>
+  </data>
+  <data name="&gt;&gt;cbVariable0.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayComboBox, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbVariable0.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;cbVariable0.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="cbVariable1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cbVariable1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cbVariable1.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbVariable1.Items" xml:space="preserve">
+    <value>Constant Value</value>
+  </data>
+  <data name="cbVariable1.Items1" xml:space="preserve">
+    <value>Create Variable</value>
+  </data>
+  <data name="cbVariable1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 107</value>
+  </data>
+  <data name="cbVariable1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="cbVariable1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cbVariable1.Name" xml:space="preserve">
+    <value>cbVariable1</value>
+  </data>
+  <data name="&gt;&gt;cbVariable1.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayComboBox, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbVariable1.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;cbVariable1.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="nudValue1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="nudValue1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 107</value>
+  </data>
+  <data name="nudValue1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="nudValue1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;nudValue1.Name" xml:space="preserve">
+    <value>nudValue1</value>
+  </data>
+  <data name="&gt;&gt;nudValue1.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayNumericUpDown, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nudValue1.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;nudValue1.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="lData1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lData1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 110</value>
+  </data>
+  <data name="lData1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 15</value>
+  </data>
+  <data name="lData1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lData1.Text" xml:space="preserve">
+    <value>Data 1</value>
+  </data>
+  <data name="&gt;&gt;lData1.Name" xml:space="preserve">
+    <value>lData1</value>
+  </data>
+  <data name="&gt;&gt;lData1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lData1.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lData1.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="lRange1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lRange1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lRange1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 112</value>
+  </data>
+  <data name="lRange1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lRange1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lRange1.Text" xml:space="preserve">
+    <value>(0-255)</value>
+  </data>
+  <data name="&gt;&gt;lRange1.Name" xml:space="preserve">
+    <value>lRange1</value>
+  </data>
+  <data name="&gt;&gt;lRange1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lRange1.Parent" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;lRange1.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="gbCommands.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="gbCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 90</value>
+  </data>
+  <data name="gbCommands.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="gbCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 340</value>
+  </data>
+  <data name="gbCommands.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gbCommands.Text" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="&gt;&gt;gbCommands.Name" xml:space="preserve">
+    <value>gbCommands</value>
+  </data>
+  <data name="&gt;&gt;gbCommands.Type" xml:space="preserve">
+    <value>Moway.Template.Controls.MowayGroupBox, MowayTemplate, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;gbCommands.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbCommands.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lOuput.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="lOuput.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lOuput.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lOuput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 445</value>
+  </data>
+  <data name="lOuput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
+  </data>
+  <data name="lOuput.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lOuput.Text" xml:space="preserve">
+    <value>Output:</value>
+  </data>
+  <data name="&gt;&gt;lOuput.Name" xml:space="preserve">
+    <value>lOuput</value>
+  </data>
+  <data name="&gt;&gt;lOuput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lOuput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lOuput.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbOutput.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="tbOutput.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 445</value>
+  </data>
+  <data name="tbOutput.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tbOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 40</value>
+  </data>
+  <data name="tbOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tbOutput.Text" xml:space="preserve">
+    <value>True - If the other mOway receives the message.
+False - If the other mOway doesn't receive the message.</value>
+  </data>
+  <data name="&gt;&gt;tbOutput.Name" xml:space="preserve">
+    <value>tbOutput</value>
+  </data>
+  <data name="&gt;&gt;tbOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbOutput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbOutput.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>444, 543</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAABMLAAATCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEwAAAGgAAAC2AAAAxgAA
+        ALsAAADFAAAA3gAAANQAAAC4AAAAgAAAADQAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAHUAAADCAAAAuQAA
+        AGUAAAAtAAAAAwAAAAwAAAA8AAAAmAAAANYAAADTAAAAwgAAAKkAAAB+AAAAPgAAAA4AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAC0AAAC+AAAAwgAA
+        AFgAAAAAAAAAAAAAAAsAAAAgAAAALQAAADEAAAA2AAAAUQAAAMQAAACcAAAAgAAAALIAAAC/AAAAvgAA
+        AJ0AAAB+AAAAXwAAAEQAAAA0AAAANwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6AAAA1QAA
+        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
+        AAQAAAACAAAACQAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAOgAAAGwAAABWAAAAFwAAAAAAAAAAAAAAiQAAALUAAAAHAAAAAAAAAAAAAAAAAAAAAAAA
+        ACAAAADGAAAAiQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAACcAAAAyAAAACgAAABAAAAC/AAAAagAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAADYAAADQAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA
+        ACYAAABHAAAATQAAADoAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAgAAAALsAAAAHAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADoAAADTAAAAhQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ADIAAAB1AAAAsAAAAJwAAAClAAAA0wAAALAAAABvAAAAIAAAAAAAAAAAAAAAAAAAAGgAAADQAAAANwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADoAAADNAAAAoQAAABAAAAAAAAAAAAAA
+        AA4AAABGAAAAdwAAAE0AAAAgAAAAAwAAAAMAAAAiAAAARAAAAJwAAACjAAAAUAAAABAAAAB7AAAA1AAA
+        AFIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAC7AAAAxAAA
+        AEgAAAAAAAAALwAAAEIAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMAAACSAAAAzQAA
+        AM0AAABBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAsAAACJAAAA0QAAAKEAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAfgAA
+        ANAAAACtAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAA4AAAAnwAAAMwAAACfAAAAbAAAAEQAAAAiAAAAGwAAAC0AAABaAAAAhQAA
+        AMYAAACvAAAAUwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAIAAAAC5AAAAwQAAALsAAAC8AAAAvgAA
+        AMIAAACfAAAARAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/////////////////AP///Pg///P+A//nAFgHzH7nwd//+Zzf///e3AP
+        /3hv4/98f/H/fD/8f36//z++n//P3N//5/jv//n95//8/fP///n5///7/P//8/5/g/f/P/zv/5//H//H
+        /z//8fj///wD//////////////////////8=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value> Communicate - Send message</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TransmissionRfForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Moway.Project.GraphicProject.Actions.ActionForm, MowayProject, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MowayWorld", "MowayWorld\MowayWorld.csproj", "{F2E43E40-348A-48B3-B08C-F13D7884F0FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MowayProject", "MowayProject\MowayProject.csproj", "{3D33E2BA-17EF-4A0D-B236-F1C3CDC8B24F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MowayTemplate", "MowayTemplates\MowayTemplate.csproj", "{426D3AE6-E859-49F5-98DD-5502770CD86D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MowaySim", "MowaySim\MowaySim.csproj", "{37B96EAF-608A-4B6F-A76B-E4A23817D23A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MowayCam", "MowayCam\MowayCam.csproj", "{81CF2BED-308F-43B0-A789-3A2C53B0FB61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MowayServer", "MowayServer\MowayServer.csproj", "{B621675E-A8C6-4180-99E4-067E13CA526A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MowayController", "MowayController\MowayController.csproj", "{F8CE46D0-90E1-4221-ADBF-26EF01C8B320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MowayRadio", "MowayRadio\MowayRadio.csproj", "{765E14EA-D0E5-4181-A173-2EA9AD1BF238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MowayCompiler", "MowayCompiler\MowayCompiler.csproj", "{20EF77E5-CF45-4200-817A-83E075C5DA1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2E43E40-348A-48B3-B08C-F13D7884F0FF}.Debug|x86.ActiveCfg = Debug|x86
+		{F2E43E40-348A-48B3-B08C-F13D7884F0FF}.Debug|x86.Build.0 = Debug|x86
+		{F2E43E40-348A-48B3-B08C-F13D7884F0FF}.Release|x86.ActiveCfg = Release|x86
+		{F2E43E40-348A-48B3-B08C-F13D7884F0FF}.Release|x86.Build.0 = Release|x86
+		{3D33E2BA-17EF-4A0D-B236-F1C3CDC8B24F}.Debug|x86.ActiveCfg = Debug|x86
+		{3D33E2BA-17EF-4A0D-B236-F1C3CDC8B24F}.Debug|x86.Build.0 = Debug|x86
+		{3D33E2BA-17EF-4A0D-B236-F1C3CDC8B24F}.Release|x86.ActiveCfg = Release|x86
+		{3D33E2BA-17EF-4A0D-B236-F1C3CDC8B24F}.Release|x86.Build.0 = Release|x86
+		{426D3AE6-E859-49F5-98DD-5502770CD86D}.Debug|x86.ActiveCfg = Debug|x86
+		{426D3AE6-E859-49F5-98DD-5502770CD86D}.Debug|x86.Build.0 = Debug|x86
+		{426D3AE6-E859-49F5-98DD-5502770CD86D}.Release|x86.ActiveCfg = Release|x86
+		{426D3AE6-E859-49F5-98DD-5502770CD86D}.Release|x86.Build.0 = Release|x86
+		{37B96EAF-608A-4B6F-A76B-E4A23817D23A}.Debug|x86.ActiveCfg = Debug|x86
+		{37B96EAF-608A-4B6F-A76B-E4A23817D23A}.Debug|x86.Build.0 = Debug|x86
+		{37B96EAF-608A-4B6F-A76B-E4A23817D23A}.Release|x86.ActiveCfg = Release|x86
+		{37B96EAF-608A-4B6F-A76B-E4A23817D23A}.Release|x86.Build.0 = Release|x86
+		{81CF2BED-308F-43B0-A789-3A2C53B0FB61}.Debug|x86.ActiveCfg = Debug|x86
+		{81CF2BED-308F-43B0-A789-3A2C53B0FB61}.Debug|x86.Build.0 = Debug|x86
+		{81CF2BED-308F-43B0-A789-3A2C53B0FB61}.Release|x86.ActiveCfg = Release|x86
+		{81CF2BED-308F-43B0-A789-3A2C53B0FB61}.Release|x86.Build.0 = Release|x86
+		{B621675E-A8C6-4180-99E4-067E13CA526A}.Debug|x86.ActiveCfg = Debug|x86
+		{B621675E-A8C6-4180-99E4-067E13CA526A}.Debug|x86.Build.0 = Debug|x86
+		{B621675E-A8C6-4180-99E4-067E13CA526A}.Release|x86.ActiveCfg = Release|x86
+		{B621675E-A8C6-4180-99E4-067E13CA526A}.Release|x86.Build.0 = Release|x86
+		{F8CE46D0-90E1-4221-ADBF-26EF01C8B320}.Debug|x86.ActiveCfg = Debug|x86
+		{F8CE46D0-90E1-4221-ADBF-26EF01C8B320}.Debug|x86.Build.0 = Debug|x86
+		{F8CE46D0-90E1-4221-ADBF-26EF01C8B320}.Release|x86.ActiveCfg = Release|x86
+		{F8CE46D0-90E1-4221-ADBF-26EF01C8B320}.Release|x86.Build.0 = Release|x86
+		{765E14EA-D0E5-4181-A173-2EA9AD1BF238}.Debug|x86.ActiveCfg = Debug|x86
+		{765E14EA-D0E5-4181-A173-2EA9AD1BF238}.Debug|x86.Build.0 = Debug|x86
+		{765E14EA-D0E5-4181-A173-2EA9AD1BF238}.Release|x86.ActiveCfg = Release|x86
+		{765E14EA-D0E5-4181-A173-2EA9AD1BF238}.Release|x86.Build.0 = Release|x86
+		{20EF77E5-CF45-4200-817A-83E075C5DA1D}.Debug|x86.ActiveCfg = Debug|x86
+		{20EF77E5-CF45-4200-817A-83E075C5DA1D}.Debug|x86.Build.0 = Debug|x86
+		{20EF77E5-CF45-4200-817A-83E075C5DA1D}.Release|x86.ActiveCfg = Release|x86
+		{20EF77E5-CF45-4200-817A-83E075C5DA1D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23569527-EA85-49D2-901A-FDCCEAA0DC3B}
+	EndGlobalSection
+EndGlobal

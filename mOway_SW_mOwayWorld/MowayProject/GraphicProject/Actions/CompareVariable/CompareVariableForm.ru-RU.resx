@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 270</value>
+  </data>
+  <data name="bCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 270</value>
+  </data>
+  <data name="llHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 30</value>
+  </data>
+  <data name="lFormDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 30</value>
+  </data>
+  <data name="lFormDescription.Text" xml:space="preserve">
+    <value>В этом Модуле вы можете сравнить постоянное/переменное значение со значением другой переменной.</value>
+  </data>
+  <data name="gbSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 70</value>
+  </data>
+  <data name="gbSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 120</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gbSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="gbSettings.Text" xml:space="preserve">
+    <value>Сравнение </value>
+  </data>
+  <data name="lValueHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 69</value>
+  </data>
+  <data name="lValueHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="lValueHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="lValueHelp.Text" xml:space="preserve">
+    <value>(0 - 255) </value>
+  </data>
+  <data name="cbVariable.Items" xml:space="preserve">
+    <value>Создать переменную </value>
+  </data>
+  <data name="cbVariable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 35</value>
+  </data>
+  <data name="cbVariable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="cbVariable.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="cbCompareVariable.Items" xml:space="preserve">
+    <value>Постоянная величина </value>
+  </data>
+  <data name="cbCompareVariable.Items1" xml:space="preserve">
+    <value>Создать переменную </value>
+  </data>
+  <data name="cbCompareVariable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 35</value>
+  </data>
+  <data name="cbCompareVariable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="cbCompareVariable.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="nudCompareValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 65</value>
+  </data>
+  <data name="nudCompareValue.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="cbOperator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 35</value>
+  </data>
+  <data name="cbOperator.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="lOuput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 200</value>
+  </data>
+  <data name="lOuput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 15</value>
+  </data>
+  <data name="lOuput.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="lOuput.Text" xml:space="preserve">
+    <value>Выход: </value>
+  </data>
+  <data name="tbOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 200</value>
+  </data>
+  <data name="tbOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 50</value>
+  </data>
+  <data name="tbOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>484, 308</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAABMLAAATCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEwAAAGgAAAC2AAAAxgAA
+        ALsAAADFAAAA3gAAANQAAAC4AAAAgAAAADQAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAHUAAADCAAAAuQAA
+        AGUAAAAtAAAAAwAAAAwAAAA8AAAAmAAAANYAAADTAAAAwgAAAKkAAAB+AAAAPgAAAA4AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAC0AAAC+AAAAwgAA
+        AFgAAAAAAAAAAAAAAAsAAAAgAAAALQAAADEAAAA2AAAAUQAAAMQAAACcAAAAgAAAALIAAAC/AAAAvgAA
+        AJ0AAAB+AAAAXwAAAEQAAAA0AAAANwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6AAAA1QAA
+        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
+        AAQAAAACAAAACQAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAOgAAAGwAAABWAAAAFwAAAAAAAAAAAAAAiQAAALUAAAAHAAAAAAAAAAAAAAAAAAAAAAAA
+        ACAAAADGAAAAiQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAACcAAAAyAAAACgAAABAAAAC/AAAAagAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAADYAAADQAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA
+        ACYAAABHAAAATQAAADoAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAgAAAALsAAAAHAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADoAAADTAAAAhQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ADIAAAB1AAAAsAAAAJwAAAClAAAA0wAAALAAAABvAAAAIAAAAAAAAAAAAAAAAAAAAGgAAADQAAAANwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADoAAADNAAAAoQAAABAAAAAAAAAAAAAA
+        AA4AAABGAAAAdwAAAE0AAAAgAAAAAwAAAAMAAAAiAAAARAAAAJwAAACjAAAAUAAAABAAAAB7AAAA1AAA
+        AFIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAC7AAAAxAAA
+        AEgAAAAAAAAALwAAAEIAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMAAACSAAAAzQAA
+        AM0AAABBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAsAAACJAAAA0QAAAKEAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAfgAA
+        ANAAAACtAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAA4AAAAnwAAAMwAAACfAAAAbAAAAEQAAAAiAAAAGwAAAC0AAABaAAAAhQAA
+        AMYAAACvAAAAUwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAIAAAAC5AAAAwQAAALsAAAC8AAAAvgAA
+        AMIAAACfAAAARAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/////////////////AP///Pg///P+A//nAFgHzH7nwd//+Zzf///e3AP
+        /3hv4/98f/H/fD/8f36//z++n//P3N//5/jv//n95//8/fP///n5///7/P//8/5/g/f/P/zv/5//H//H
+        /z//8fj///wD//////////////////////8=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Сравнить - Переменная </value>
+  </data>
+</root>

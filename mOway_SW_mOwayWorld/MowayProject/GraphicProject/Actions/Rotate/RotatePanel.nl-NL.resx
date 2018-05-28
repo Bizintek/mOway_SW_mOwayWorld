@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lActionName.Text" xml:space="preserve">
+    <value>Beweging - Rotatie</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="lSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 15</value>
+  </data>
+  <data name="lSpeed.Text" xml:space="preserve">
+    <value>Rotatie Snelheid</value>
+  </data>
+  <data name="rbRotateCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 19</value>
+  </data>
+  <data name="rbRotateCenter.Text" xml:space="preserve">
+    <value>Rotatie Middelpunt</value>
+  </data>
+  <data name="nudSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 65</value>
+  </data>
+  <data name="lSpeedRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 70</value>
+  </data>
+  <data name="rbRotateWheel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 19</value>
+  </data>
+  <data name="rbRotateWheel.Text" xml:space="preserve">
+    <value>Rotatie Wiel</value>
+  </data>
+  <data name="cbSpeed.Items" xml:space="preserve">
+    <value>Constante Snelheid</value>
+  </data>
+  <data name="cbSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 42</value>
+  </data>
+  <data name="cbSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="lRotation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 84</value>
+  </data>
+  <data name="lRotation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 15</value>
+  </data>
+  <data name="lRotation.Text" xml:space="preserve">
+    <value>Rotatie Modus</value>
+  </data>
+  <data name="cbRotateCenter.Items" xml:space="preserve">
+    <value>recht (met de klok mee)</value>
+  </data>
+  <data name="cbRotateCenter.Items1" xml:space="preserve">
+    <value>Links (tegen de klok in)</value>
+  </data>
+  <data name="cbRotateCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 20</value>
+  </data>
+  <data name="cbRotateCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="cbRotateWheel.Items" xml:space="preserve">
+    <value>Linkerwiel vooruit</value>
+  </data>
+  <data name="cbRotateWheel.Items1" xml:space="preserve">
+    <value>Linkerwiel achteruit</value>
+  </data>
+  <data name="cbRotateWheel.Items2" xml:space="preserve">
+    <value>Rechter wiel vooruit</value>
+  </data>
+  <data name="cbRotateWheel.Items3" xml:space="preserve">
+    <value>Rechterwiel achteruit</value>
+  </data>
+  <data name="cbRotateWheel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 68</value>
+  </data>
+  <data name="cbRotateWheel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="cbFinishCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 374</value>
+  </data>
+  <data name="cbFinishCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 19</value>
+  </data>
+  <data name="cbFinishCommands.Text" xml:space="preserve">
+    <value>Rond limiet af voordat je verder gaat</value>
+  </data>
+  <data name="lFlowchart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 200</value>
+  </data>
+  <data name="lFlowchart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 15</value>
+  </data>
+  <data name="lFlowchart.Text" xml:space="preserve">
+    <value>Commando loopt</value>
+  </data>
+  <data name="rbContiniously.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 214</value>
+  </data>
+  <data name="rbContiniously.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 19</value>
+  </data>
+  <data name="rbContiniously.Text" xml:space="preserve">
+    <value>voortdurend</value>
+  </data>
+  <data name="cbTime.Items" xml:space="preserve">
+    <value>Constante Tijd</value>
+  </data>
+  <data name="cbTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 254</value>
+  </data>
+  <data name="nudTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 277</value>
+  </data>
+  <data name="rbTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 234</value>
+  </data>
+  <data name="rbTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 19</value>
+  </data>
+  <data name="rbTime.Text" xml:space="preserve">
+    <value>voor tijdlimiet</value>
+  </data>
+  <data name="lTimeRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 282</value>
+  </data>
+  <data name="rbAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 304</value>
+  </data>
+  <data name="rbAngle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 19</value>
+  </data>
+  <data name="rbAngle.Text" xml:space="preserve">
+    <value>voor hoeklimiet</value>
+  </data>
+  <data name="cbAngle.Items" xml:space="preserve">
+    <value>Constante Hoek</value>
+  </data>
+  <data name="cbAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 324</value>
+  </data>
+  <data name="nudAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 347</value>
+  </data>
+  <data name="lAngleRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 352</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 92</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 95</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>3638, 400</value>
+  </data>
+</root>

@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{426D3AE6-E859-49F5-98DD-5502770CD86D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Moway.Template</RootNamespace>
+    <AssemblyName>MowayTemplate</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\MowayHTrackBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MowayHTrackBar.Designer.cs">
+      <DependentUpon>MowayHTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PanelBorder.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\PanelBorder.designer.cs">
+      <DependentUpon>PanelBorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ToolBarButtonSelector.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ToolBarButtonSelector.Designer.cs">
+      <DependentUpon>ToolBarButtonSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TrackThumb.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TrackThumb.Designer.cs">
+      <DependentUpon>TrackThumb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MowayToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MowayToolBar.Designer.cs">
+      <DependentUpon>MowayToolBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MowayButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MowayButton.Designer.cs">
+      <DependentUpon>MowayButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MowayVTrackBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MowayVTrackBar.Designer.cs">
+      <DependentUpon>MowayVTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SharePanelSelector.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SharePanelSelector.Designer.cs">
+      <DependentUpon>SharePanelSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SharePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SharePanel.Designer.cs">
+      <DependentUpon>SharePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MowayColors.cs" />
+    <Compile Include="Controls\MowayComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MowayComboBox.Designer.cs">
+      <DependentUpon>MowayComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MowayHScrollBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MowayHScrollBar.Designer.cs">
+      <DependentUpon>MowayHScrollBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MowayGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MowayGroupBox.Designer.cs">
+      <DependentUpon>MowayGroupBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MowayNumericUpDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MowayNumericUpDown.Designer.cs">
+      <DependentUpon>MowayNumericUpDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MowayOnOff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MowayOnOff.Designer.cs">
+      <DependentUpon>MowayOnOff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MowayTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MowayTextBox.Designer.cs">
+      <DependentUpon>MowayTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MowayToolTip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MowayToolTip.Designer.cs">
+      <DependentUpon>MowayToolTip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OnOffButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\OnOffButton.Designer.cs">
+      <DependentUpon>OnOffButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ScrollButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ScrollButton.Designer.cs">
+      <DependentUpon>ScrollButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ScrollThumb.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ScrollThumb.Designer.cs">
+      <DependentUpon>ScrollThumb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MowayStatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MowayStatusBar.Designer.cs">
+      <DependentUpon>MowayStatusBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TabButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TabButton.Designer.cs">
+      <DependentUpon>TabButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ToolBarButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ToolBarButton.Designer.cs">
+      <DependentUpon>ToolBarButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ToolBarGraphics.Designer.cs">
+      <DependentUpon>ToolBarGraphics.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Controls\iToolBarItem.cs" />
+    <Compile Include="Controls\ToolBarSeparator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ToolBarSeparator.Designer.cs">
+      <DependentUpon>ToolBarSeparator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MowayRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MowayRadioButton.Designer.cs">
+      <DependentUpon>MowayRadioButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MowayCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MowayCheckBox.Designer.cs">
+      <DependentUpon>MowayCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MowayVScrollBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MowayVScrollBar.Designer.cs">
+      <DependentUpon>MowayVScrollBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MowayBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MowayBox.Designer.cs">
+      <DependentUpon>MowayBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MowayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MowayForm.Designer.cs">
+      <DependentUpon>MowayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MowayMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MowayMessageBox.Designer.cs">
+      <DependentUpon>MowayMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MowayShareBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MowayShareBox.Designer.cs">
+      <DependentUpon>MowayShareBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\MowayHTrackBar.resx">
+      <DependentUpon>MowayHTrackBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MowayVTrackBar.resx">
+      <DependentUpon>MowayVTrackBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ToolBarButtonSelector.resx">
+      <DependentUpon>ToolBarButtonSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TrackThumb.resx">
+      <DependentUpon>TrackThumb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MowayToolBar.resx">
+      <DependentUpon>MowayToolBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MowayButton.resx">
+      <DependentUpon>MowayButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MowayComboBox.resx">
+      <DependentUpon>MowayComboBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MowayHScrollBar.resx">
+      <DependentUpon>MowayHScrollBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MowayGroupBox.resx">
+      <DependentUpon>MowayGroupBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MowayNumericUpDown.resx">
+      <DependentUpon>MowayNumericUpDown.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MowayOnOff.resx">
+      <DependentUpon>MowayOnOff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MowayTextBox.resx">
+      <DependentUpon>MowayTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\OnOffButton.resx">
+      <DependentUpon>OnOffButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ScrollButton.resx">
+      <DependentUpon>ScrollButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ScrollThumb.resx">
+      <DependentUpon>ScrollThumb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MowayStatusBar.resx">
+      <DependentUpon>MowayStatusBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SharePanelSelector.resx">
+      <DependentUpon>SharePanelSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SharePanel.resx">
+      <DependentUpon>SharePanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TabButton.resx">
+      <DependentUpon>TabButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ToolBarButton.resx">
+      <DependentUpon>ToolBarButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ToolBarGraphics.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ToolBarGraphics.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ToolBarSeparator.resx">
+      <DependentUpon>ToolBarSeparator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MowayRadioButton.resx">
+      <DependentUpon>MowayRadioButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MowayCheckBox.resx">
+      <DependentUpon>MowayCheckBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MowayVScrollBar.resx">
+      <DependentUpon>MowayVScrollBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MowayMessageBox.en-GB.resx">
+      <DependentUpon>MowayMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MowayMessageBox.es-ES.resx">
+      <DependentUpon>MowayMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MowayBox.resx">
+      <DependentUpon>MowayBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MowayForm.resx">
+      <DependentUpon>MowayForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MowayMessageBox.nl-NL.resx">
+      <DependentUpon>MowayMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MowayMessageBox.resx">
+      <DependentUpon>MowayMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MowayMessageBox.ru-RU.resx">
+      <DependentUpon>MowayMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MowayMessageBox.zh-CN.resx">
+      <DependentUpon>MowayMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MowayShareBox.resx">
+      <DependentUpon>MowayShareBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_over_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_down_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_normal_selected.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
